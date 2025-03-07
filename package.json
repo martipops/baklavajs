@@ -2,6 +2,7 @@
     "name": "baklavajs-monorepo",
     "private": true,
     "type": "module",
+    "version": "3.6.9",
     "scripts": {
         "playground": "cd packages/renderer-vue && yarn run dev",
         "lint": "eslint \"packages/*/src/**/*.{ts,vue}\"",
