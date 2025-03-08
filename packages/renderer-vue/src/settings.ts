@@ -14,7 +14,7 @@ interface SubmenuContextMenuItem {
     submenu: ContextMenuItem[];
 }
 
-interface ToolbarCommand {
+export interface ToolbarCommand {
     command: string;
     title: string;
     icon?: Component;
